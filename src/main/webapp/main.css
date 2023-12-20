@@ -1,0 +1,26 @@
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Стилизация кнопок */
+a {
+    display: block;
+    width: 150px; /* Ширина кнопок */
+    padding: 10px;
+    margin: 30px auto; /* Размещение чуть ниже по центру */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db; /* Цвет фона */
+    border-radius: 5px; /* Закругление границ */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+}
+
+a:hover {
+    background-color: #2980b9; /* Цвет фона при наведении */
+}
